@@ -10,6 +10,8 @@
 | `sha1sum archivo.E01` | Calcula el hash SHA1 del archivo y lo compara con el valor original para verificar integridad. |
 | `ewf` | **Enhanced Write Filter** — evita modificaciones en medios durante análisis. |
 | `ewfverify archivo.E01` | Verifica que la imagen `.E01` no esté corrupta y que su hash coincida con el original. |
+| `ewfinfo archivo.E01` | metadatos de la imagen antes de montarla. |
+| `stat archivo` | ver fechas de modificación, acceso y creación. |
 
 | **Archivo** | **Ubicación** | **Importancia** | **Descripción / Uso en Forense** |
 |-------------|---------------|-----------------|-----------------------------------|
@@ -46,3 +48,4 @@
 | `cat history.log \| grep -i -A3 josesito` | Igual que anterior pero muestra 3 líneas siguientes. |
 | `cat auth.log` | Registros de autenticación y comandos ejecutados con privilegios. |
 | `cat dmesg* \| grep -i uuid` | Busca el UUID en logs de arranque para documentarlo. |
+
