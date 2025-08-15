@@ -49,3 +49,11 @@
 | `cat auth.log` | Registros de autenticación y comandos ejecutados con privilegios. |
 | `cat dmesg* \| grep -i uuid` | Busca el UUID en logs de arranque para documentarlo. |
 
+
+## Celulares: 
+| Herramienta | Plataforma | Descripción breve |
+|-------------|------------|-------------------|
+| **iLEAPP** (iOS Logs, Events, And Plist Parser) | iOS / iPadOS | Analiza artefactos forenses de dispositivos Apple. Extrae y parsea bases de datos, logs, archivos plist y otros, generando reportes HTML/JSON con actividad de apps, ubicación, redes y eventos del sistema. |
+| **ALEAPP** (Android Logs, Events, And Protobuf Parser) | Android | Analiza artefactos forenses de dispositivos Android. Procesa bases de datos SQLite, logs, XML/JSON/Protobuf y genera reportes HTML/JSON con historial de ubicaciones, uso de apps, conexiones y eventos del sistema. |
+
+
