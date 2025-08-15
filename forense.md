@@ -57,3 +57,5 @@
 | **ALEAPP** (Android Logs, Events, And Protobuf Parser) | Android | Analiza artefactos forenses de dispositivos Android. Procesa bases de datos SQLite, logs, XML/JSON/Protobuf y genera reportes HTML/JSON con historial de ubicaciones, uso de apps, conexiones y eventos del sistema. |
 
 
+
+
